@@ -206,6 +206,7 @@ body {
   height: 60px;
 }
 #lock-icon {
+  color: rgb(107, 123, 138);
   font-size: 18px;
 }
 #visibility-icon {
@@ -217,32 +218,36 @@ body {
   }
   .access-bank-icon-container {
     border: 1px solid red;
-    width: 795px;
-    height: 120px;
+    width: 790px;
+    height: 190px;
   }
   .access-bank-icon {
-    width: 200px;
-    height: 70px;
+    width: 230px;
+    height: 60px;
     margin-left: 50px;
+    margin-top: 50px;
     border: 1px solid red;
   }
   .text-container {
     width: 700px;
-    line-height: 70px;
+    line-height: 60px;
     border: 1px solid red;
     margin: auto;
   }
   .step {
-    font-size: 30px;
+    font-size: 40px;
     color: rgb(107, 123, 138);
     border: 1px solid red;
+    margin-top: 10px;
   }
   .header-text {
-    font-size: 35px;
+    margin-top: 10px;
+    font-size: 45px;
   }
   .text {
     font-weight: light;
-    font-size: 30px;
+    font-size: 40px;
+    margin-top: 10px;
     border: 1px solid red;
   }
   #contain-container {
@@ -258,27 +263,30 @@ body {
     background-color: white;
     border-radius: 10px;
     width: 700px;
-    height: 100px;
+    height: 160px;
     padding: 10px;
     margin-top: 60px;
+    border: 1px solid red;
   }
   #account-number {
     display: flex;
     flex-direction: column;
   }
   #account-title {
-    font-size: 25px;
+    font-size: 30px;
     margin-left: 10px;
     color: rgb(161, 174, 192);
   }
   .input-account-number {
+    margin-top: 10px;
     font-size: small;
     border: none;
+    border: 1px solid red;
     outline: none;
-    height: 30px;
+    height: 100px;
     margin-left: 10px;
-    width: 400px;
-    font-size: 25px;
+    width: 670px;
+    font-size: 30px;
     color: black;
   }
   .phone-number-container {
@@ -286,25 +294,28 @@ body {
     border-radius: 10px;
     width: 700px;
     padding: 10px;
-    height: 100px;
+    height: 160px;
     margin-top: 60px;
+    border: 1px solid red;
   }
   #phone-number {
     display: flex;
     flex-direction: column;
   }
   #phone-number-title {
-    font-size: 25px;
+    font-size: 30px;
     margin-left: 10px;
     color: rgb(161, 174, 192);
   }
   .input-phone-number {
     outline: none;
     border: none;
-    height: 50px;
+    height: 100px;
     margin-left: 10px;
-    font-size: 25px;
-    width: 400px;
+    margin-top: 10px;
+    font-size: 30px;
+    border: 1px solid red;
+    width: 670px;
     color: black;
   }
   .username-container {
@@ -312,26 +323,29 @@ body {
     border-radius: 10px;
     width: 700px;
     padding: 10px;
-    height: 100px;
+    height: 160px;
     margin-top: 60px;
+    border: 1px solid red;
   }
   #userName {
     display: flex;
     flex-direction: column;
   }
   #username-title {
-    font-size: 25px;
+    font-size: 30px;
     margin-left: 10px;
     color: rgb(161, 174, 192);
   }
   .input-userName {
     outline: none;
     border: none;
-    height: 50px;
+    height: 100px;
     margin-left: 10px;
-    font-size: 25px;
+    margin-top: 10px;
+    font-size: 30px;
     color: black;
-    width: 400px;
+    width: 670px;
+    border: 1px solid red;
   }
   .password-container {
     display: flex;
@@ -339,26 +353,28 @@ body {
     background-color: white;
     border-radius: 10px;
     width: 700px;
-    height: 100px;
+    height: 160px;
     padding: 10px;
     margin-top: 60px;
+    border: 1px solid red;
   }
   #password {
     display: flex;
     align-items: center;
   }
   #password-title {
-    font-size: 25px;
+    font-size: 30px;
     margin-left: 50px;
     color: rgb(161, 174, 192);
   }
   .input-password {
     outline: none;
     border: none;
-    height: 50px;
+    height: 100px;
     margin-left: 10px;
+    margin-top: 10px;
     font-size: 25px;
-
+    border: 1px solid red;
     width: 600px;
     color: black;
   }
@@ -380,7 +396,7 @@ body {
     border-radius: 10px;
     color: black;
     padding: 6px;
-    box-shadow: rgb(228, 230, 231) 2px 4px 0px;
+    box-shadow: rgb(228, 230, 231) 4px 6px 0px;
     background-color: rgb(238, 238, 238);
     margin: 10px;
     font-size: 25px;
@@ -392,17 +408,18 @@ body {
     flex-direction: column;
     background-color: white;
     width: 700px;
-    height: 100px;
+    height: 160px;
     border-radius: 10px;
     padding: 10px;
     margin-top: 60px;
+    border: 1px solid red;
   }
   #cPassword {
     display: flex;
     align-items: center;
   }
   #confirm-password-title {
-    font-size: 25px;
+    font-size: 30px;
     margin-left: 50px;
     color: rgb(161, 174, 192);
   }
@@ -410,10 +427,12 @@ body {
     outline: none;
     border: none;
     margin-left: 10px;
-    height: 50px;
+    margin-top: 10px;
+    height: 100px;
     width: 600px;
-    font-size: 25px;
+    font-size: 30px;
     color: black;
+    border: 1px solid red;
   }
   .continue-button {
     outline: none;
@@ -423,11 +442,12 @@ body {
     border-radius: 10px;
     width: 300px;
     margin-top: 50px;
-
-    font-size: 25px;
-    padding: 10px;
+    height: 100px;
+    font-size: 30px;
+    padding: 20px;
   }
   #lock-icon {
+    color: rgb(107, 123, 138);
     font-size: 35px;
   }
   #visibility-icon {

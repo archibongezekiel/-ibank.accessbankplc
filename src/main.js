@@ -57,7 +57,6 @@ export default function Main(params) {
 
   if (pattern.test(inputData.password) && inputData.password.length === 8) {
     e = "rgb(255, 132, 7)";
-    console.log("yes");
   } else {
     e = "red";
   }
