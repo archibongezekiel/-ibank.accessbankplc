@@ -4,9 +4,9 @@ export default function Button(p) {
   const i = [
     "1 Lowercase",
     "1 Uppercase",
-    "At least 8 characters",
-    "1 Special Character",
-    "1 Number",
+    " At least 8 characters",
+    " 1 Special Character",
+    " 1 Number",
   ];
   const m = i.map((li) => (
     <li key={li} id="b" style={{ color: p.orange }}>
