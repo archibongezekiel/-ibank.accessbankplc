@@ -69,6 +69,7 @@ export default function Main(params) {
         margin: "auto",
         marginTop: "25px",
       }}
+      id="contain-container"
     >
       <div className="text-container">
         <span className="step">STEP 1 of 2</span>
@@ -80,7 +81,7 @@ export default function Main(params) {
       </div>
 
       {/*  */}
-      <form onSubmit={submitForm}>
+      <form onSubmit={submitForm} id="form-container">
         <div className="account-number-container">
           <label id="account-number">
             <span id="account-title">Account number</span>

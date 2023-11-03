@@ -218,5 +218,119 @@ body {
   .access-bank-icon-container {
     border: 1px solid red;
     width: 800px;
+    height: 120px;
+  }
+  .access-bank-icon {
+    width: 200px;
+    height: 70px;
+    margin-left: 50px;
+    border: 1px solid red;
+  }
+  .text-container {
+    width: 700px;
+    line-height: 70px;
+    border: 1px solid red;
+    margin: auto;
+  }
+  .step {
+    font-size: 30px;
+    color: rgb(107, 123, 138);
+    border: 1px solid red;
+  }
+  .header-text {
+    font-size: 35px;
+  }
+  .text {
+    font-weight: light;
+    font-size: 30px;
+    border: 1px solid red;
+  }
+  #contain-container {
+    margin: auto;
+    border: 1px solid red;
+  }
+  #form-container {
+    margin: auto;
+    width: 700px;
+    border: 1px solid red;
+  }
+  .account-number-container {
+    background-color: white;
+    border-radius: 10px;
+    width: 680px;
+    height: 100px;
+    padding: 10px;
+    margin-top: 50px;
+  }
+  #account-number {
+    display: flex;
+    flex-direction: column;
+  }
+  #account-title {
+    font-size: 20px;
+    margin-left: 10px;
+    color: rgb(161, 174, 192);
+  }
+  .input-account-number {
+    font-size: small;
+    border: none;
+    outline: none;
+    height: 30px;
+    margin-left: 10px;
+    width: 400px;
+    font-size: 20px;
+    color: black;
+  }
+  .phone-number-container {
+    background-color: white;
+    border-radius: 10px;
+    width: 680px;
+    padding: 10px;
+    height: 100px;
+    margin-top: 50px;
+  }
+  #phone-number {
+    display: flex;
+    flex-direction: column;
+  }
+  #phone-number-title {
+    font-size: 20px;
+    margin-left: 10px;
+    color: rgb(161, 174, 192);
+  }
+  .input-phone-number {
+    outline: none;
+    border: none;
+    height: 30px;
+    margin-left: 10px;
+    font-size: 20px;
+    width: 400px;
+    color: black;
+  }
+  .username-container {
+    background-color: white;
+    border-radius: 10px;
+    width: 680px;
+    padding: 10px;
+    height: 100px;
+    margin-top: 50px;
+  }
+  #userName {
+    display: flex;
+    flex-direction: column;
+  }
+  #username-title {
+    font-size: 20px;
+    margin-left: 10px;
+    color: rgb(161, 174, 192);
+  }
+  .input-userName {
+    outline: none;
+    border: none;
+    height: 30px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: black;
+    width: 400px;
   }
 }
