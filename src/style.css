@@ -251,8 +251,7 @@ body {
     border: 1px solid red;
   }
   #contain-container {
-    margin: auto;
-    border: 1px solid red;
+    border: 1px solid blue;
   }
   #form-container {
     margin: auto;
@@ -278,7 +277,6 @@ body {
     color: rgb(161, 174, 192);
   }
   .input-account-number {
-    margin-top: 10px;
     font-size: small;
     border: none;
     border: 1px solid red;
@@ -312,7 +310,6 @@ body {
     border: none;
     height: 100px;
     margin-left: 10px;
-    margin-top: 10px;
     font-size: 30px;
     border: 1px solid red;
     width: 670px;
@@ -341,7 +338,6 @@ body {
     border: none;
     height: 100px;
     margin-left: 10px;
-    margin-top: 10px;
     font-size: 30px;
     color: black;
     width: 670px;
@@ -372,7 +368,6 @@ body {
     border: none;
     height: 100px;
     margin-left: 10px;
-    margin-top: 10px;
     font-size: 25px;
     border: 1px solid red;
     width: 600px;
@@ -386,6 +381,7 @@ body {
   #must-have {
     font-size: 30px;
     padding: 5px;
+    color: rgb(156, 156, 156);
   }
   #list-item {
     list-style: none;
@@ -411,7 +407,7 @@ body {
     height: 160px;
     border-radius: 10px;
     padding: 10px;
-    margin-top: 60px;
+    margin-top: 50px;
     border: 1px solid red;
   }
   #cPassword {
@@ -427,7 +423,6 @@ body {
     outline: none;
     border: none;
     margin-left: 10px;
-    margin-top: 10px;
     height: 100px;
     width: 600px;
     font-size: 30px;
@@ -441,7 +436,7 @@ body {
     background-color: rgb(255, 130, 0);
     border-radius: 10px;
     width: 300px;
-    margin-top: 50px;
+    margin-top: 60px;
     height: 100px;
     font-size: 30px;
     padding: 20px;
@@ -451,6 +446,6 @@ body {
     font-size: 35px;
   }
   #visibility-icon {
-    font-size: 35px;
+    font-size: 55px;
   }
 }
