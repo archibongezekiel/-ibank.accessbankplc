@@ -247,9 +247,9 @@ body {
     font-size: 40px;
     margin-top: 10px;
   }
-  /* #contain-container {
- 
-  } */
+  #contain-container {
+    height: 1800px;
+  }
   #form-container {
     margin: auto;
     width: 700px;
@@ -258,7 +258,8 @@ body {
     background-color: white;
     border-radius: 10px;
     width: 700px;
-    height: 160px;
+    height: 150px;
+
     padding: 10px;
     margin-top: 60px;
   }
@@ -287,7 +288,7 @@ body {
     border-radius: 10px;
     width: 700px;
     padding: 10px;
-    height: 160px;
+    height: 150px;
     margin-top: 60px;
   }
   #phone-number {
@@ -314,7 +315,7 @@ body {
     border-radius: 10px;
     width: 700px;
     padding: 10px;
-    height: 160px;
+    height: 150px;
     margin-top: 60px;
   }
   #userName {
@@ -341,7 +342,7 @@ body {
     background-color: white;
     border-radius: 10px;
     width: 700px;
-    height: 160px;
+    height: 150px;
     padding: 10px;
     margin-top: 60px;
   }
@@ -395,7 +396,7 @@ body {
     flex-direction: column;
     background-color: white;
     width: 700px;
-    height: 160px;
+    height: 150px;
     border-radius: 10px;
     padding: 10px;
     margin-top: 50px;
