@@ -217,7 +217,6 @@ body {
     /* background-color: red; */
   }
   .access-bank-icon-container {
-    border: 1px solid red;
     width: 790px;
     height: 190px;
   }
@@ -226,18 +225,17 @@ body {
     height: 60px;
     margin-left: 50px;
     margin-top: 50px;
-    border: 1px solid red;
   }
   .text-container {
     width: 700px;
     line-height: 60px;
-    border: 1px solid red;
+
     margin: auto;
   }
   .step {
     font-size: 40px;
     color: rgb(107, 123, 138);
-    border: 1px solid red;
+
     margin-top: 10px;
   }
   .header-text {
@@ -248,15 +246,13 @@ body {
     font-weight: light;
     font-size: 40px;
     margin-top: 10px;
-    border: 1px solid red;
   }
-  #contain-container {
-    border: 1px solid blue;
-  }
+  /* #contain-container {
+ 
+  } */
   #form-container {
     margin: auto;
     width: 700px;
-    border: 1px solid red;
   }
   .account-number-container {
     background-color: white;
@@ -265,7 +261,6 @@ body {
     height: 160px;
     padding: 10px;
     margin-top: 60px;
-    border: 1px solid red;
   }
   #account-number {
     display: flex;
@@ -279,7 +274,7 @@ body {
   .input-account-number {
     font-size: small;
     border: none;
-    border: 1px solid red;
+
     outline: none;
     height: 100px;
     margin-left: 10px;
@@ -294,7 +289,6 @@ body {
     padding: 10px;
     height: 160px;
     margin-top: 60px;
-    border: 1px solid red;
   }
   #phone-number {
     display: flex;
@@ -311,7 +305,7 @@ body {
     height: 100px;
     margin-left: 10px;
     font-size: 30px;
-    border: 1px solid red;
+
     width: 670px;
     color: black;
   }
@@ -322,7 +316,6 @@ body {
     padding: 10px;
     height: 160px;
     margin-top: 60px;
-    border: 1px solid red;
   }
   #userName {
     display: flex;
@@ -341,7 +334,6 @@ body {
     font-size: 30px;
     color: black;
     width: 670px;
-    border: 1px solid red;
   }
   .password-container {
     display: flex;
@@ -352,7 +344,6 @@ body {
     height: 160px;
     padding: 10px;
     margin-top: 60px;
-    border: 1px solid red;
   }
   #password {
     display: flex;
@@ -369,7 +360,7 @@ body {
     height: 100px;
     margin-left: 10px;
     font-size: 25px;
-    border: 1px solid red;
+
     width: 600px;
     color: black;
   }
@@ -408,7 +399,6 @@ body {
     border-radius: 10px;
     padding: 10px;
     margin-top: 50px;
-    border: 1px solid red;
   }
   #cPassword {
     display: flex;
@@ -427,7 +417,6 @@ body {
     width: 600px;
     font-size: 30px;
     color: black;
-    border: 1px solid red;
   }
   .continue-button {
     outline: none;
